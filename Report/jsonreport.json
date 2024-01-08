@@ -1,0 +1,185 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To create new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-facebook-functionality;to-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11471219700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "TO launch the browser and maximise the window",
+            "match": {
+              "location": "CreateNewAccFb.to_launch_the_browser_and_maximise_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3688004400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of the facebook application",
+            "match": {
+              "location": "CreateNewAccFb.to_launch_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277275100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "CreateNewAccFb.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3241239600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the first name in the name feild",
+            "match": {
+              "location": "CreateNewAccFb.to_pass_the_first_name_in_the_name_feild(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname1",
+                  "subithra"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname2",
+                  "pavithra"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname3",
+                  "swarnashri"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname4",
+                  "tamil"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 775052900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To pass the sur name in the name feild",
+            "match": {
+              "location": "CreateNewAccFb.to_pass_the_sur_name_in_the_name_feild()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274343300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass the emaild id in the email feild",
+            "match": {
+              "location": "CreateNewAccFb.to_pass_the_emaild_id_in_the_email_feild(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "223555",
+                  "gdsng",
+                  "441454745"
+                ]
+              },
+              {
+                "cells": [
+                  "55124542",
+                  "rehaghb",
+                  "tnsgby"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387016300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To paas the password in the password feild",
+            "match": {
+              "location": "CreateNewAccFb.to_paas_the_password_in_the_password_feild()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "CreateNewAccFb.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Skaning"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the account creation of facebook functionality",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-facebook-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/CreateAcc.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
